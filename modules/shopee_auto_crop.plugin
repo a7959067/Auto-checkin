@@ -3,7 +3,7 @@
 
 [Script]
 cron "0 0 * * *" script-path=https://kinta.ma/surge/scripts/shopee_auto_crop.js, wake-system=1, timeout=30, tag=自動種植
-cron "59 11 * * *" script-path=https://raw.githubusercontent.com/a7959067/Auto-checkin/main/script/shopee_set_auto_crop_seed_name.js, tag=設定搶種子名稱
+ script-path=https://raw.githubusercontent.com/a7959067/Auto-checkin/main/script/shopee_set_auto_crop_seed_name.js, tag=自動搶布丁設定
 
 [MITM]
-hostname = mall.shopee.tw
+hostname = mall.shopee.tw, games-dailycheckin.shopee.tw
